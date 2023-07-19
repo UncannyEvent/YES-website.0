@@ -1,0 +1,79 @@
+.background {
+  background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://th.bing.com/th/id/R.c0b7f756fa4ab8d35ed02b38cc60c444?rik=1A9CSz4OdEfsEA&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fABeKmUx.jpg&ehk=ap%2fCTORUId4fQKPoKwVyMBOGIx05fM6wg4NiH%2f8gU6g%3d&risl=&pid=ImgRaw&r=0');
+}
+/*
+h1, h2, h3, p, ul {
+  background-color: rgba(0,0,0,0.7);
+  color: white;
+  font-family: Courier New;
+  margin: 10px 10px 10px 10px;
+  padding: 10px 10px 10px 10px;
+  border-radius: 10px;
+}
+*/
+.text {
+  display: inline-block;
+  font: Courier New;
+ 
+  background: linear-gradient(45deg,#FF0000,#FF7F00,#FFFF00,#00FF00,#0000FF,#4B0082,#8B00FF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 100%;
+  
+}
+
+.box {
+  background-color: rgba(0,0,0,0.5);
+  margin: 10px 10px 10px 10px;
+  padding: 10px 10px 10px 10px;
+  border-radius: 10px;
+}
+
+.list {
+  background-color: rgba(0,0,0,0.5);
+  margin: 10px 10px 10px 10px;
+  padding: 10px 10px 10px 30px;
+  border-radius: 10px;
+}
+
+ul {
+  padding: 10px 10px 10px 30px;
+}
+
+li {
+  padding: 5px 5px 5px 5px;
+}
+
+li:hover {
+   background-color: rgba(255, 255, 255, 0.2);
+}
+
+.box:hover {
+  background-color: rgba(255,255,255,0.2);
+}
+
+.row {
+   display: flex;
+}
+
+.left {
+  flex: 50%;
+}
+
+.right {
+  flex: 50%;
+  align: center;
+  
+  background-color: rgba(0,0,0,0.5);
+  color: white;
+  margin: 10px 10px 10px 10px;
+  padding: 10px 10px 10px 10px;
+  border-radius: 10px;
+}
+
+.plot {
+  width: 600px;
+  height: 250px;
+  margin: 0 auto;
+  padding: 10px 10px 10px 10px;
+}
