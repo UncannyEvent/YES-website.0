@@ -1,0 +1,44 @@
+<head>
+  <script src="plotly-2.24.1.min.js" charset="utf-8"></script>
+  <script src="https://cdn.plot.ly/plotly-2.24.1.min.js" charset="utf-8"></script>
+</head>
+<body class="background">
+
+  
+  <h1 class="box" style="text-align: center;">Spectroscopy Experiment</h1>
+  
+  <div class="nav">
+    <button class="navele" onclick="white()">WHITE</button>
+    <button class="navele" onclick="green()">GREEN</button>
+    <button class="navele" onclick="refl()">% REFLECTANCE</button>
+  </div>
+  
+  <h2 class="box" id="subsection" style="text-align: center;">White Paper</h2>
+ 
+  <div class="row">
+    <div class="column">
+      <p></p>
+      <div class="colors">
+        <button class="colorbutton" style="background-color: blue;" onclick="switchcolor(0)"></button>
+        <button class="colorbutton" style="background-color: cyan;" onclick="switchcolor(1)"></button>
+        <button class="colorbutton" style="background-color: green;" onclick="switchcolor(2)"></button>
+        <button class="colorbutton" style="background-color: yellow;" onclick="switchcolor(3)"></button>
+        <button class="colorbutton" style="background-color: orange;" onclick="switchcolor(4)"></button>
+        <button class="colorbutton" style="background-color: red;" onclick="switchcolor(5)"></button>
+        <button class="colorbutton" style="background-color: maroon;" onclick="switchcolor(6)"></button>
+        <button class="colorbutton" style="background-color: #FFFFFF;" onclick="switchcolor(7)"></button>
+        <button class="colorbutton" style="background-color: #AAAAAA;" onclick="switchcolor(8)"></button>
+        <button class="colorbutton" style="background-color: #555555;" onclick="switchcolor(9)"></button>
+        <button class="colorbutton" style="background-color: #000000;" onclick="switchcolor(10)"></button>
+      </div>
+      
+      <p class="box" id="colorbox">IR1 = 528</p>
+    </div>
+    
+    <div class="column">
+      <div class="box">
+        <div class="plot" id="plot"></div>
+      </div>
+    </div>
+  </div>
+</body>
